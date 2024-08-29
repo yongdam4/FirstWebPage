@@ -2378,8 +2378,11 @@
 /* Image */
 
 	.image {
-		display: inline-block;
-		position: relative;
+		display: block;
+
+margin-left: auto;
+
+margin-right: auto; 
 	}
 
 		.image.flush {
@@ -2921,7 +2924,7 @@
 			-ms-transition: opacity 1.5s ease-in-out, visibility 1.5s;
 			transition: opacity 1.5s ease-in-out, visibility 1.5s;
 			content: '';
-			background-image: url(../../images/bg.jpg);
+			background-image: url(../../images/sea.jpg);
 			background-attachment: fixed;
 			background-position: center;
 			background-repeat: no-repeat;
@@ -3108,12 +3111,12 @@
 		}
 
 	.wrapper.style2 {
-		background: #1e1f23;
+		background:rgb(153, 187, 153);
 		padding: 6rem;
 	}
 
 		.wrapper.style2 header {
-			background: #121315;
+			background: rgb(189, 175, 132);
 			border-radius: 4px 4px 0 0;
 		}
 
